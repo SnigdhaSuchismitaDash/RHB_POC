@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]" parallel="none">
+  <listeners>
+    <listener class-name="RHB_POC.ListnerTest"/>
+  </listeners>
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="RHB_POC.ScenarioTest1">
+        <methods>
+          <include name="launchChrome"/>
+          <include name="homeLoanCalculator"/>
+          <include name="homeAffordabilityCalculator"/>
+          <include name="investment"/>
+        </methods>
+      </class> <!-- RHB_POC.ScenarioTest1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
